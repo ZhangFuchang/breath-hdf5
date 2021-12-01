@@ -1,0 +1,37 @@
+{
+  "name": "breath-hdf5",
+  "version": "1.5.5",
+  "description": "Native Abstractions for hdf5 file io",
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZhangFuchang/breathhdf5.git"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "mocha": "8.1.1",
+    "should": "13.2.3",
+    "xml2js": "0.4.23"
+  },
+  "scripts": {
+    "install": "node-gyp rebuild --jobs max",
+    "test": "mocha test"
+  },
+  "contributors": [
+    "Ryan Cole <ryan@rycole.com> (https://github.com/ryancole/)",
+    "Roger I Martin <mathmldashx@yahoo.com> (https://github.com/rimmartin/)"
+  ],
+  "license": "MIT",
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/ZhangFuchang/breathhdf5/issues"
+  },
+  "homepage": "https://github.com/ZhangFuchang/breathhdf5#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "author": "zfc947433815"
+}
